@@ -1,0 +1,35 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "Ubuntu-Medium"; src: url("../fonts/Ubuntu-Medium.ttf"); }
+
+/*------- Font Family Ends -------*/
+
+/*------- Scrolling Text Animation Section Starts -------*/
+
+.bg-banner { display: flex; height: 100vh; overflow: hidden; position: relative; width: 100%; }
+.banner-text { background-color: #00aef3; color: #ffffff; overflow: hidden; position: relative; width: 50%; }
+.banner-text:first-of-type { background: url("../images/banner.jpg") no-repeat top/cover; overflow: hidden; position: relative; width: 50%; }
+.banner-text:first-of-type > h2 { -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #ffffff; -webkit-text-fill-color: transparent; left: 100%; }
+.banner-text > h2 { -webkit-animation: scrollingTextAni 60s linear infinite; animation: scrollingTextAni 60s linear infinite; font: 7vw/100vh "Ubuntu-Medium"; position: absolute; white-space: nowrap; }
+@-webkit-keyframes scrollingTextAni {
+  0% { -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); transform: translateX(0); }
+  100% { -webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -ms-transform: translateX(-100%); -o-transform: translateX(-100%); transform: translateX(-100%); }
+}
+@-moz-keyframes scrollingTextAni {
+  0% { -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); transform: translateX(0); }
+  100% { -webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -ms-transform: translateX(-100%); -o-transform: translateX(-100%); transform: translateX(-100%); }
+}
+@-ms-keyframes scrollingTextAni {
+  0% { -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); transform: translateX(0); }
+  100% { -webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -ms-transform: translateX(-100%); -o-transform: translateX(-100%); transform: translateX(-100%); }
+}
+@-o-keyframes scrollingTextAni {
+  0% { -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); transform: translateX(0); }
+  100% { -webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -ms-transform: translateX(-100%); -o-transform: translateX(-100%); transform: translateX(-100%); }
+}
+@keyframes scrollingTextAni {
+  0% { -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); transform: translateX(0); }
+  100% { -webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -ms-transform: translateX(-100%); -o-transform: translateX(-100%); transform: translateX(-100%); }
+}
+
+/*------- Scrolling Text Animation Section Ends -------*/

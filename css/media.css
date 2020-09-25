@@ -1,0 +1,29 @@
+@media only screen and (max-width: 767px) {
+
+/*------- Scrolling Text Animation Section Starts -------*/
+
+.banner-text > h2 { font-size: 14vw; }
+
+/*------- Scrolling Text Animation Section Ends -------*/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/*------- Scrolling Text Animation Section Starts -------*/
+
+.banner-text > h2 { font-size: 14vw; }
+
+/*------- Scrolling Text Animation Section Ends -------*/
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+/*------- Scrolling Text Animation Section Starts -------*/
+
+.banner-text > h2 { font-size: 14vw; }
+
+/*------- Scrolling Text Animation Section Ends -------*/
+
+}
